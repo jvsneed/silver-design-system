@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/silver-design-system/static/css/main.b6798716.css",
-    "main.js": "/silver-design-system/static/js/main.b52523f5.js",
+    "main.js": "/silver-design-system/static/js/main.84cc0e70.js",
     "static/js/453.ce30075c.chunk.js": "/silver-design-system/static/js/453.ce30075c.chunk.js",
     "static/media/silverdesignheader.png": "/silver-design-system/static/media/silverdesignheader.2d75fb4915df50ace50e.png",
     "index.html": "/silver-design-system/index.html",
     "main.b6798716.css.map": "/silver-design-system/static/css/main.b6798716.css.map",
-    "main.b52523f5.js.map": "/silver-design-system/static/js/main.b52523f5.js.map",
+    "main.84cc0e70.js.map": "/silver-design-system/static/js/main.84cc0e70.js.map",
     "453.ce30075c.chunk.js.map": "/silver-design-system/static/js/453.ce30075c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6798716.css",
-    "static/js/main.b52523f5.js"
+    "static/js/main.84cc0e70.js"
   ]
 }
