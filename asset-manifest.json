@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/silver-design-system/static/css/main.b6798716.css",
-    "main.js": "/silver-design-system/static/js/main.d4edd4ff.js",
+    "main.css": "/silver-design-system/static/css/main.ec30bfba.css",
+    "main.js": "/silver-design-system/static/js/main.51de7fdf.js",
     "static/js/453.ce30075c.chunk.js": "/silver-design-system/static/js/453.ce30075c.chunk.js",
     "static/media/silverdesignheader.png": "/silver-design-system/static/media/silverdesignheader.2d75fb4915df50ace50e.png",
     "index.html": "/silver-design-system/index.html",
-    "main.b6798716.css.map": "/silver-design-system/static/css/main.b6798716.css.map",
-    "main.d4edd4ff.js.map": "/silver-design-system/static/js/main.d4edd4ff.js.map",
+    "main.ec30bfba.css.map": "/silver-design-system/static/css/main.ec30bfba.css.map",
+    "main.51de7fdf.js.map": "/silver-design-system/static/js/main.51de7fdf.js.map",
     "453.ce30075c.chunk.js.map": "/silver-design-system/static/js/453.ce30075c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6798716.css",
-    "static/js/main.d4edd4ff.js"
+    "static/css/main.ec30bfba.css",
+    "static/js/main.51de7fdf.js"
   ]
 }
