@@ -160,7 +160,7 @@ function ChecklistPage() {
 
   return (
     <div className="page-container">
-      <div style={{ width: '80%' }}>
+      <div>
         <h1 className="page-title">Design Checklist</h1>
         <p className="page-description">
           This checklist is created to assist designers in evaluating prototypes, focusing on senior users. It incorporates principles from the Nielsen Norman Group's design heuristics, accessibility best practices, and research-backed guidelines tailored to support senior users. By using this checklist, you can ensure that your designs are intuitive, accessible, and user-friendly, meeting the needs of senior individuals.
