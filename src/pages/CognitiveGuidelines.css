@@ -1,0 +1,123 @@
+.page-container {
+    padding: 20px;
+    width: 80%;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #1E0D31; /* Replace with your theme's primary color */
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    color: #1E0D31; /* Replace with your theme's primary color */
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .section-content {
+    font-size: 1rem;
+    color: #343a40; /* Replace with your theme's dark color */
+    margin: 0 10px 0 0;
+  }
+  
+  .horizontal-rule {
+    border: 0;
+    border-top: .5px solid #1E0D31; /* Replace with your theme's primary color */
+    margin: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  .menu-section {
+    width: 250px;
+    margin-right: 20px;
+    border-top: 5px solid #4caf50;
+  }
+  
+  .menu {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .menu-icon {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 5px;
+  }
+  
+  .menu-icon::after,
+  .menu-icon::before {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin-top: 5px;
+  }
+  
+  .note {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    width: 250px;
+  }
+  
+  .note-icon {
+    height: 34px;
+    margin-right: 10px;
+    display: flex;
+    flex-shrink: 0;
+  }
+  
+  .comparison-section {
+    width: 100px;
+    padding-top: 10px;
+    margin-left: 100px;
+    border-top: 5px solid #ff3e3e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .comparison-menu {
+    border: 1px solid #ddd;
+    padding: 30px 0 0 20px;
+  }
+  
+  .image-placeholder {
+    width: 100%;
+    height: 200px;
+    background: #f8f9fa; /* Replace with your theme's lightGrey color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #343a40; /* Replace with your theme's dark color */
+    margin-bottom: 20px;
+  }
+  
