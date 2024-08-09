@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/silver-design-system/static/css/main.b8435823.css",
-    "main.js": "/silver-design-system/static/js/main.75a5dfe9.js",
+    "main.css": "/silver-design-system/static/css/main.2dc7d11b.css",
+    "main.js": "/silver-design-system/static/js/main.eeeb92eb.js",
     "static/js/453.ce30075c.chunk.js": "/silver-design-system/static/js/453.ce30075c.chunk.js",
     "static/media/orientuser.png": "/silver-design-system/static/media/orientuser.40bf3543241ba665b55b.png",
     "static/media/silverdesignheader.png": "/silver-design-system/static/media/silverdesignheader.2d75fb4915df50ace50e.png",
     "index.html": "/silver-design-system/index.html",
-    "main.b8435823.css.map": "/silver-design-system/static/css/main.b8435823.css.map",
-    "main.75a5dfe9.js.map": "/silver-design-system/static/js/main.75a5dfe9.js.map",
+    "main.2dc7d11b.css.map": "/silver-design-system/static/css/main.2dc7d11b.css.map",
+    "main.eeeb92eb.js.map": "/silver-design-system/static/js/main.eeeb92eb.js.map",
     "453.ce30075c.chunk.js.map": "/silver-design-system/static/js/453.ce30075c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8435823.css",
-    "static/js/main.75a5dfe9.js"
+    "static/css/main.2dc7d11b.css",
+    "static/js/main.eeeb92eb.js"
   ]
 }
