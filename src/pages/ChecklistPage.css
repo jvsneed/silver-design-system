@@ -74,7 +74,8 @@
   .description {
     font-size: 0.9rem;
     color: #343a40; /* Replace with your theme's dark color */
-    margin: 1px 0 10px 20px; /* Remove top margin to avoid spacing between heading and description */
+    margin: 1px 0 10px 20px; 
+    width: 85%;
   }
   
   .icon {
@@ -92,6 +93,7 @@
   }
   
   .checklist-item {
+    font-size: 0.9rem;
     margin-bottom: 20px;
     display: flex;
     align-items: top;
