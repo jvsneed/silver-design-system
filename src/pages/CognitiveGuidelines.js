@@ -1,6 +1,7 @@
 import React from 'react';
 import './CognitiveGuidelines.css'; // Import the CSS file
 import MenuExample from '../components/MenuExample'; // Import the MenuExample component
+import OrientUserExample from '../components/OrientUserExample'; // Import the OrientUserExample component
 
 const CognitiveGuidelines = () => {
   return (
@@ -9,14 +10,22 @@ const CognitiveGuidelines = () => {
       <div className="section">
         <h2 className="section-title">Understandable Language</h2>
         <p className="section-content">
-          Use common and familiar language that is rooted more in real life than digital. Avoid using industry specific jargon. For large amounts of text, verify that the reading comprehension level does not exceed 9th grade. Use a tool like <a href="https://readable.com" target="_blank" rel="noopener noreferrer">Readable.com</a> to check this.
+          <ul className="guidelines-list">
+            <li>Use common and familiar language that is rooted more in real life than digital.</li>
+            <li>Avoid using industry specific jargon.</li>
+            <li>For large amounts of text, verify that the reading comprehension level does not exceed 9th grade.</li>
+            <li>Use a tool like <a href="https://readable.com" target="_blank" rel="noopener noreferrer">Readable.com</a> to check this.</li>
+          </ul>
         </p>
       </div>
       <hr className="horizontal-rule" />
       <div className="section">
         <h2 className="section-title">Clear Labels</h2>
         <p className="section-content">
-          Icons, inputs, and other page elements should be clearly labeled. Avoid hiding important text, such as menus, especially on a page’s initial state.
+          <ul className="guidelines-list">
+            <li>Icons, inputs, and other page elements should be clearly labeled.</li>
+            <li>Avoid hiding important text, such as menus, especially on a page’s initial state.</li>
+          </ul>
         </p>
         <MenuExample />
       </div>
@@ -24,22 +33,33 @@ const CognitiveGuidelines = () => {
       <div className="section">
         <h2 className="section-title">Orient the User</h2>
         <p className="section-content">
-          Match links and menu labels to the page the user will be navigating to. Consider adding breadcrumbs and page titles; ensure URLs and page titles are consistent with what the user expects to see.
+          <ul className="guidelines-list">
+            <li>Match links and menu labels to the page the user will be navigating to.</li>
+            <li>Consider adding breadcrumbs and page titles; ensure URLs and page titles are consistent with what the user expects to see.</li>
+          </ul>
         </p>
-        <div className="image-placeholder">[image example]</div>
+        <OrientUserExample /> {/* Add the OrientUserExample component here */}
       </div>
       <hr className="horizontal-rule" />
       <div className="section">
         <h2 className="section-title">Navigation</h2>
         <p className="section-content">
-          When applicable, allow for back and forward buttons. This allows for options if one forgets something on the previous page or makes a mistake, allowing for reduction of user error. Avoid deep navigation hierarchies. Keeping menus shallow, two labels deep at the most will make navigating the site easier.
+          <ul className="guidelines-list">
+            <li>When applicable, allow for back and forward buttons.</li>
+            <li>This allows for options if one forgets something on the previous page or makes a mistake, allowing for reduction of user error.</li>
+            <li>Avoid deep navigation hierarchies. Keeping menus shallow, two labels deep at the most will make navigating the site easier.</li>
+          </ul>
         </p>
       </div>
       <hr className="horizontal-rule" />
       <div className="section">
         <h2 className="section-title">Understandability</h2>
         <p className="section-content">
-          Use common language that is easy to understand. Avoid technical or industry jargon. Consider using familiar terms that are rooted more in real life than digital.
+          <ul className="guidelines-list">
+            <li>Use common language that is easy to understand.</li>
+            <li>Avoid technical or industry jargon.</li>
+            <li>Consider using familiar terms that are rooted more in real life than digital.</li>
+          </ul>
         </p>
         <div className="image-placeholder">[image example]</div>
       </div>

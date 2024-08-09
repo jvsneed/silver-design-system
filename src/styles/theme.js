@@ -10,6 +10,7 @@ const theme = {
       info: '#17a2b8',
       light: '#ffffff',
       dark: '#343a40',
+      horizontalrule:'#948B89'
     },
     spacing: (factor) => `${8 * factor}px`,
     fonts: {
