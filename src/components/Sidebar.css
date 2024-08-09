@@ -1,98 +1,118 @@
-@keyframes gradientBorder {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
+/* Sidebar styles */
+.sidebar-container {
+  width: 250px;
+  height: 100vh;
+  background: #f8f9fa;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.sidebar-container.open {
+  transform: translateX(0);
+}
+
+.sidebar-toggle {
+  background: none;
+  border: none;
+  color: #343a40;
+  font-size: 1.5rem;
+  padding: 10px;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  z-index: 1000;
+  cursor: pointer;
+  display: none;
+}
+
+.sidebar-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1E0D31;
+  margin-bottom: 20px;
+}
+
+.sidebar-item {
+  margin-bottom: 15px;
+}
+
+.sidebar-link {
+  display: block;
+  color: #343a40;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-link.active, .sidebar-link:hover {
+  background-color: #FFCF77;
+  color: #1E0D31;
+}
+
+.figma-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #343a40;
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: 12px;
+  background: white;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  background-image: linear-gradient(white, white), linear-gradient(45deg, #FFCF77, pink, purple);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: auto; /* Push the button to the bottom */
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.figma-button svg {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.figma-button:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.version {
+  margin-top: 20px;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
   .sidebar-container {
+    transform: translateX(-100%);
     width: 250px;
-    height: 100vh;
-    background: #f8f9fa; /* Adjust this to match your theme */
-    padding: 16px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
     position: fixed;
-    display: flex;
-    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 100;
   }
-  
-  .sidebar-header {
-    font-size: 2rem;
-    line-height: 2.5rem;
-    font-weight: 400;
-    color: #343a40; /* Adjust this to match your theme */
-    margin-bottom: 32px;
-    text-align: left;
+
+  .sidebar-container.open {
+    transform: translateX(0);
   }
-  
-  .sidebar-item {
-    margin-bottom: 16px;
-  }
-  
-  .sidebar-link {
+
+  .sidebar-toggle {
     display: block;
-    color: #343a40; /* Adjust this to match your theme */
-    background-color: transparent;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 8px;
-    padding-left: 16px;
-    transition: color 0.3s, background-color 0.3s;
   }
-  
-  .sidebar-link.active,
-  .sidebar-link:hover {
-    color: #343a40; /* Adjust this to match your theme */
-    background-color: #FFCF77; /* Adjust this to match your theme */
+
+  .sidebar-header {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left:20px;
   }
-  
-  .sidebar-section {
-    margin-bottom: 16px;
-  }
-  
-  .section-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    padding: 8px;
-    padding-left: 16px;
-  }
-  
-  .figma-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #343a40; /* Adjust this to match your theme */
-    font-size: .9rem;
-    padding: 16px;
-    border-radius: 12px;
-    background: white;
-    border: 4px solid transparent;
-    background-clip: padding-box;
-    background-image: linear-gradient(white, white), linear-gradient(45deg, #FFCF77, pink, #FFCF77);
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: auto;  /* Push the button to the bottom */
-    overflow: hidden;
-    transition: border-width 0.6s linear;
-  }
-  
-  .figma-button svg {
-    margin-right: 8px;
-    font-size: 24px;
-  }
-  
-  .figma-button:hover {
-    border-width: 8px;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  }
-  
+}

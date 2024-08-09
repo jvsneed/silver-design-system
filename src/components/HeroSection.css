@@ -1,31 +1,97 @@
 .hero-container {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Adjust the height as needed */
-    background: url('../images/silverdesignheader.png') no-repeat center center/cover;
-    color: #1E0D31; /* Dark text color */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Aligns content to the start (left) */
-    padding: 0 3rem; /* Add padding to ensure text doesn't touch the edges */
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background: url('../images/silverdesignheader.png') no-repeat center center/cover;
+  color: #1E0D31; /* Dark text color */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Aligns content to the start (left) */
+  padding: 0 3rem; /* Add padding to ensure text doesn't touch the edges */
+}
+
+.hero-text {
+  text-align: left;
+  max-width: 40%; /* Limit width to prevent stretching */
+}
+
+.main-heading {
+  font-size: 5rem;
+  line-height: 5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+  .hero-container {
+      padding: 0 2rem;
   }
-  
+
   .hero-text {
-    text-align: left;
-    max-width: 40%; /* Limit width to prevent stretching */
+      max-width: 50%; /* Increase max-width on medium screens */
   }
-  
+
   .main-heading {
-    font-size: 5rem;
-    line-height: 5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
+      font-size: 4rem;
+      line-height: 4rem;
   }
-  
+
   .sub-heading {
-    font-size: 2rem;
-    line-height: 2rem;
-    font-weight: 400;
-    margin: 0;
+      font-size: 1.8rem;
+      line-height: 1.8rem;
   }
-  
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+      padding: 0 1.5rem;
+      justify-content: center; /* Center text for smaller screens */
+  }
+
+  .hero-text {
+      max-width: 80%; /* Increase max-width on smaller screens */
+      text-align: center; /* Center align text on smaller screens */
+  }
+
+  .main-heading {
+      font-size: 3rem;
+      line-height: 3.5rem;
+  }
+
+  .sub-heading {
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-container {
+      padding: 0 1rem;
+      height: auto; /* Adjust height for very small screens */
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+  }
+
+  .hero-text {
+      max-width: 100%; /* Full width on very small screens */
+      text-align: center;
+  }
+
+  .main-heading {
+      font-size: 2.5rem;
+      line-height: 3rem;
+  }
+
+  .sub-heading {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+  }
+}

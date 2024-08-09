@@ -16,9 +16,15 @@ const AppContainer = styled.div`
 `;
 
 const ContentContainer = styled.main`
-  margin-left: 250px; /* Adjust this value based on your sidebar width */
   padding: 20px;
-  width: calc(100% - 250px);
+  margin-left:40px;
+  width: 100%; /* Default to full width */
+  transition: margin-left 0.3s ease, width 0.3s ease;
+
+  @media (min-width: 769px) {
+    margin-left: 250px; /* Space for the sidebar on larger screens */
+    width: calc(100% - 250px); /* Adjust content width to fit beside the sidebar */
+  }
 `;
 
 function App() {
