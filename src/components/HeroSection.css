@@ -33,9 +33,6 @@
 
 /* Responsive Styles */
 @media screen and (max-width: 1024px) {
-  .hero-container {
-      /* padding: 0 2rem; */
-  }
 
   .hero-text {
       max-width: 50%; /* Increase max-width on medium screens */
