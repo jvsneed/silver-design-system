@@ -1,18 +1,18 @@
 .hero-container {
-  position: relative;
   width: 100%;
-  height: 100vh; /* Full viewport height */
+  height: 99vh; /* Full viewport height */
   background: url('../images/silverdesignheader.png') no-repeat center center/cover;
   color: #1E0D31; /* Dark text color */
   display: flex;
-  align-items: center;
-  justify-content: flex-start; /* Aligns content to the start (left) */
-  padding: 0 3rem; /* Add padding to ensure text doesn't touch the edges */
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .hero-text {
   text-align: left;
-  max-width: 40%; /* Limit width to prevent stretching */
+  max-width: 40%;
+  margin-top:100px;
+  padding-left:30px;
 }
 
 .main-heading {
@@ -20,6 +20,8 @@
   line-height: 5rem;
   font-weight: 700;
   margin-bottom: 10px;
+  padding-top:90px;
+
 }
 
 .sub-heading {
@@ -32,7 +34,7 @@
 /* Responsive Styles */
 @media screen and (max-width: 1024px) {
   .hero-container {
-      padding: 0 2rem;
+      /* padding: 0 2rem; */
   }
 
   .hero-text {
@@ -51,47 +53,25 @@
 }
 
 @media screen and (max-width: 768px) {
+
   .hero-container {
-      padding: 0 1.5rem;
       justify-content: center; /* Center text for smaller screens */
+      background: url('../images/open-peeps-3.png') no-repeat center center/cover;
+      background-position-y: 40%;
+      background-size:150%;
   }
 
   .hero-text {
-      max-width: 80%; /* Increase max-width on smaller screens */
-      text-align: center; /* Center align text on smaller screens */
-  }
-
-  .main-heading {
-      font-size: 3rem;
-      line-height: 3.5rem;
-  }
-
-  .sub-heading {
-      font-size: 1.5rem;
-      line-height: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .hero-container {
-      padding: 0 1rem;
-      height: auto; /* Adjust height for very small screens */
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-  }
-
-  .hero-text {
-      max-width: 100%; /* Full width on very small screens */
-      text-align: center;
+      min-width: 100%; /* Increase max-width on smaller screens */
   }
 
   .main-heading {
       font-size: 2.5rem;
-      line-height: 3rem;
+      line-height: 2.5rem;
   }
 
   .sub-heading {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       line-height: 1.5rem;
   }
 }

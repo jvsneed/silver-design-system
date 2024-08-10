@@ -17,13 +17,14 @@ const AppContainer = styled.div`
 
 const ContentContainer = styled.main`
   padding: 20px;
-  margin-left:40px;
+  margin-top: 30px;
   width: 100%; /* Default to full width */
   transition: margin-left 0.3s ease, width 0.3s ease;
+  background-color: ${({ isHomePage }) => (isHomePage ? 'lightblue' : 'white')};
 
   @media (min-width: 769px) {
-    margin-left: 250px; /* Space for the sidebar on larger screens */
-    width: calc(100% - 250px); /* Adjust content width to fit beside the sidebar */
+    margin-left: ${({ isHomePage }) => (isHomePage ? '0' : '250px')}; /* No margin for Home page */
+    width: ${({ isHomePage }) => (isHomePage ? '100%' : 'calc(100% - 250px)')}; /* Full width for Home page */
   }
 `;
 
