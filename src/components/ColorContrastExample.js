@@ -7,7 +7,7 @@ const ColorContrastExample = () => {
       <div className="example-item">
         <div className="example-header correct">
           <div className="line green"></div>
-          <div className="example-box correct-box">
+          <div className="example-input correct-box">
             <span>Placeholder filled text</span>
           </div>
         </div>

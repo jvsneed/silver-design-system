@@ -2,6 +2,7 @@ import React from 'react';
 import './DesignGuidelines.css'; // Import the CSS file
 import ColorContrastExample from '../components/ColorContrastExample'; // Adjust the path as needed
 import TargetSizeExample from '../components/TargetSizeExample'; // Adjust the path as needed
+import MinimumSpacingExample from '../components/MinimumSpacingExample';
 
 
 const DesignGuidelines = () => {
@@ -43,7 +44,6 @@ const DesignGuidelines = () => {
       </div>
       <div>
       <TargetSizeExample />
-      {/* Other content */}
     </div>
       <hr className="horizontal-rule" />
       <div className="section">
@@ -64,6 +64,9 @@ const DesignGuidelines = () => {
           </ul>
         </p>
       </div>
+      <div>
+      <MinimumSpacingExample />
+     </div>
       <hr className="horizontal-rule" />
       <div className="section">
         <h2 className="section-title">Minimum Text Size</h2>
