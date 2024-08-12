@@ -16,6 +16,7 @@
 
 .example-item.correct {
   margin-right: 40px; /* Space between correct and incorrect sections */
+  border:none;
 }
 
 .example-header {
@@ -40,7 +41,6 @@
 .example-box {
   border-radius: 8px;
   padding: 20px; /* Adjust padding as necessary */
-  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,9 +64,7 @@
 
 /* Correct Spacing Box */
 .spacing-box.correct {
-  width: 200px;
-  height: 60px;
-  border: 1px solid #ddd;
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,12 +79,19 @@
 .time-button {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: #f8f9fa;
   border: 1px solid #ddd;
   border-radius: 4px;
   color: #005eb8;
-  font-size: 1rem;
+  font-size: 1.6rem;
+  min-height:72px;
+  justify-content: space-between;
+}
+.button-spacing{
+    display:flex;
+    flex-direction:column;
+    gap:65px;
 }
 
 .clock-icon {
@@ -95,23 +100,27 @@
 
 /* Incorrect Spacing Box */
 .spacing-box.incorrect {
-  width: 150px;
-  border: 1px solid #ddd;
+  width: 300px;
   display: flex;
   flex-direction: column;
 }
 
 .flight-list {
-  list-style: none;
+  display:flex;
+  flex-direction:column;
+  gap:4px;
   padding: 0;
   margin: 0;
 }
 
 .flight-item {
-  padding: 5px;
-  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius:10px;
+  border: 1px solid #ddd;
+  background-color: #E6EAF3;
+  min-height:60px;
+  font-size:10pt;
+  display: flex;
+  align-items:center;
 }
 
-.flight-item:last-child {
-  border-bottom: none;
-}

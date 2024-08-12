@@ -9,14 +9,23 @@ const MinimumSpacingExample = () => {
           <div className="line green"></div>
           <div className="example-box">
             <div className="spacing-box correct">
-              <label className="label">TIME OF DAY (Optional)</label>
-              <button className="time-button">All day <span className="clock-icon">🕒</span></button>
+              <div className="button-spacing">
+                <div>
+                  <label className="label">TIME OF DAY (Optional)</label>
+                  <div className="time-button">All day <span className="clock-icon">🕒</span></div>
+                </div>
+                <div>
+                  <label className="label">TIME OF DAY (Optional)</label>
+                  <div className="time-button">All day <span className="clock-icon">🕒</span></div>
+                </div>
+                </div>
+            
             </div>
           </div>
         </div>
         <div className="example-description">
           <img src="https://img.icons8.com/color/48/000000/checkmark.png" alt="Checkmark" className="status-icon" />
-          <p>The width of this gap is 85px.</p>
+          <p>The width of this gap is 65px.</p>
         </div>
       </div>
 
@@ -25,10 +34,10 @@ const MinimumSpacingExample = () => {
           <div className="line red"></div>
           <div className="example-box">
             <div className="spacing-box incorrect">
-              <ul className="flight-list">
-                <li className="flight-item">San Francisco, CA - San Francisco Intl (SFO)</li>
-                <li className="flight-item">Chicago, IL - All airports (CHI)</li>
-              </ul>
+              <div className="flight-list">
+                <div className="flight-item">San Francisco, CA - San Francisco Intl (SFO)</div>
+                <div className="flight-item">Chicago, IL - All airports (CHI)</div>
+              </div>
             </div>
           </div>
         </div>
