@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Changed from BrowserRouter to HashRouter
 import styled from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
 import theme from './styles/theme';
@@ -32,7 +32,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Router basename="/silver-design-system">
+      <Router basename=""> {/* Using HashRouter instead of BrowserRouter */}
         <AppContainer>
           <Sidebar />
           <ContentContainer>
