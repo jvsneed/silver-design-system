@@ -1,6 +1,7 @@
-.container {
+.menu-container {
     display: flex;
     justify-content: left;
+    flex-wrap:wrap;
     align-items: flex-start;
     margin: 20px;
   }

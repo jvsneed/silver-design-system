@@ -3,7 +3,7 @@ import './MenuExample.css'; // Import the CSS file
 
 const MenuExample = () => {
   return (
-    <div className="container">
+    <div className="menu-container">
       <div className="menu-section">
         <div className="menu">
           <div className="menu-item">

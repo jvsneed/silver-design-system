@@ -78,7 +78,7 @@
   }
   
   .accordion-content {
-    padding: 10px 20px;
+    padding: 10px 20px 10px 45px;
     background: #f9f9f9;
     display: none;
   }
