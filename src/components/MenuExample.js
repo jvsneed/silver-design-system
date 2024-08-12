@@ -63,7 +63,7 @@ const MenuExample = () => {
         </div>
         <div className="note">
           <div className="note-icon">
-            <img src="https://img.icons8.com/ios/50/ff3e3e/no-entry.png" alt="No Entry" />
+            <img src="https://img.icons8.com/color/48/000000/cancel.png" alt="X icon" />
           </div>
           <span>Many sites collapse the navigation menu by default and use icons to help with navigation. Avoid collapsing the menu initially, and give the user the option to close it if they prefer.</span>
         </div>

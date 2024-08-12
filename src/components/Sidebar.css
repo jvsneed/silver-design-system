@@ -114,6 +114,9 @@
   color: #6c757d;
   font-size: 0.9rem;
 }
+.version{
+  font-size:9pt;
+}
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
