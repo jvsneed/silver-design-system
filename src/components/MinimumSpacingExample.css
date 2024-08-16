@@ -9,7 +9,7 @@
 }
 .example-box {
   border-radius: 8px;
-  padding: 20px; 
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,6 @@
   color: #343a40;
 }
 
-/* Correct Spacing Box */
 .spacing-box.correct {
   width: 250px;
   display: flex;
@@ -48,20 +47,19 @@
   border-radius: 4px;
   color: #005eb8;
   font-size: 1.6rem;
-  min-height:72px;
+  min-height: 72px;
   justify-content: space-between;
 }
-.button-spacing{
-    display:flex;
-    flex-direction:column;
-    gap:65px;
+.button-spacing {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
 }
 
 .clock-icon {
   margin-left: 8px;
 }
 
-/* Incorrect Spacing Box */
 .spacing-box.incorrect {
   width: 300px;
   display: flex;
@@ -69,21 +67,20 @@
 }
 
 .flight-list {
-  display:flex;
-  flex-direction:column;
-  gap:4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   padding: 0;
   margin: 0;
 }
 
 .flight-item {
   padding: 5px 10px;
-  border-radius:10px;
+  border-radius: 10px;
   border: 1px solid #ddd;
-  background-color: #E6EAF3;
-  min-height:60px;
-  font-size:10pt;
+  background-color: #e6eaf3;
+  min-height: 60px;
+  font-size: 10pt;
   display: flex;
-  align-items:center;
+  align-items: center;
 }
-

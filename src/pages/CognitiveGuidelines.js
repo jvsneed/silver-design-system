@@ -1,9 +1,9 @@
-import React from 'react';
-import './CognitiveGuidelines.css';
-import Do from '../components/Dos.js';
-import Dont from '../components/Donts.js';
-import MenuExample from '../components/MenuExample'; 
-import OrientUserExample from '../components/OrientUserExample'; 
+import React from "react";
+import "./CognitiveGuidelines.css";
+import Do from "../components/Dos.js";
+import Dont from "../components/Donts.js";
+import MenuExample from "../components/MenuExample";
+import OrientUserExample from "../components/OrientUserExample";
 
 const CognitiveGuidelines = () => {
   return (
@@ -101,7 +101,7 @@ const CognitiveGuidelines = () => {
         </p>
         <div className="understand-section">
           <div className="good-section">
-          <Do></Do>
+            <Do></Do>
             <h1 className="understand-heading">instead of...</h1>
             <span>click</span>
             <span>submit</span>
@@ -111,7 +111,7 @@ const CognitiveGuidelines = () => {
           </div>
 
           <div className="bad-section">
-          <Dont></Dont>
+            <Dont></Dont>
 
             <h1 className="understand-heading">try</h1>
             <span>select</span>

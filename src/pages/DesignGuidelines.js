@@ -10,7 +10,7 @@ const DesignGuidelines = () => {
     <div className="page-container">
       <h1 className="page-title">Design Guidelines</h1>
       <div className="section">
-        <h2 className="section-title">Color Contrast</h2>
+        <h2 className="section-title" id="color-contrast">Color Contrast</h2>
         <p className="section-content">
           <ul className="guidelines-list">
             <li>
@@ -27,7 +27,7 @@ const DesignGuidelines = () => {
         </div>
       <hr className="horizontal-rule" />
       <div className="section">
-        <h2 className="section-title">Minimum Target Size</h2>
+        <h2 className="section-title" id="minimum-target-size">Minimum Target Size</h2>
         <p className="section-content">
           <ul className="guidelines-list">
             <li>
@@ -47,7 +47,7 @@ const DesignGuidelines = () => {
     </div>
       <hr className="horizontal-rule" />
       <div className="section">
-        <h2 className="section-title">Minimum Spacing</h2>
+        <h2 className="section-title" id="minimum-spacing">Minimum Spacing</h2>
         <p className="section-content">
           <ul className="guidelines-list">
             <li>
@@ -69,7 +69,7 @@ const DesignGuidelines = () => {
      </div>
       <hr className="horizontal-rule" />
       <div className="section">
-        <h2 className="section-title">Minimum Text Size</h2>
+        <h2 className="section-title" id="minimum-text-size">Minimum Text Size</h2>
         <p className="section-content">
           <ul className="guidelines-list">
             <li>

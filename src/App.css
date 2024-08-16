@@ -5,7 +5,7 @@
 
 .page-title {
   font-size: 2rem;
-  color: #1E0D31; 
+  color: #1e0d31;
   margin-bottom: 20px;
 }
 
@@ -15,23 +15,34 @@
 
 .section-title {
   font-size: 1.5rem;
-  color: #1E0D31; 
+  color: #1e0d31;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .section-content {
   font-size: 1rem;
-  color: #343a40; 
+  color: #343a40;
   margin: 0 10px 0 0;
 }
 
 .horizontal-rule {
   border: 0;
-  border-top: .5px solid #1E0D31; 
+  border-top: 0.5px solid #1e0d31;
   margin: 20px 0;
 }
 
+a {
+  color: #0f6674;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1e0d31;
+  background-color: #ffcf77;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -44,23 +55,23 @@
   padding: 10px 0px;
 }
 .do,
-.dont{
-  color:white;
-  padding:2px 12px;
-  border-radius:10px;
+.dont {
+  font-size: 10pt;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 10px;
   align-self: baseline;
 }
-.do{
+.do {
   background-color: green;
-
 }
-.dont{
+.dont {
   background-color: red;
 }
 
 @media screen and (max-width: 768px) {
   .page-container {
-    margin-top:20px;
+    margin-top: 20px;
     padding: 10px;
     width: 100%;
   }
@@ -70,7 +81,7 @@
   margin-right: 20px;
   display: flex;
   flex-direction: column;
-  max-width:35%;
+  max-width: 35%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 8px;

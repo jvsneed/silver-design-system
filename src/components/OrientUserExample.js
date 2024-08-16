@@ -1,7 +1,6 @@
 import React from "react";
-import "./OrientUserExample.css"; 
-import Do from './Dos.js';
-import Dont from './Donts.js';
+import "./OrientUserExample.css";
+import Do from "./Dos.js";
 import orientUserImage from "../images/orientuser.png";
 
 const OrientUserExample = () => {
@@ -10,13 +9,13 @@ const OrientUserExample = () => {
       <Do></Do>
       <div className="note">
         <span>
-          It is clear where the user has navigated to based on the navigation menu styling, and the consistent page title.
+          It is clear where the user has navigated to based on the navigation
+          menu styling, and the consistent page title.
         </span>
       </div>
       <div className="guideline-example-right">
         <img src={orientUserImage} alt="Guideline Example" />
       </div>
-
     </div>
   );
 };

@@ -1,9 +1,8 @@
-/* Accessibility */
 .skip-to-content {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #1E0D31;
+  background: #1e0d31;
   color: white;
   padding: 8px;
   z-index: 100;
@@ -31,7 +30,7 @@
 
 .page-title {
   font-size: 2rem;
-  color: #1E0D31;
+  color: #1e0d31;
   margin-bottom: 20px;
 }
 
@@ -47,18 +46,6 @@
   margin: 2rem 0;
 }
 
-.learn-link {
-  display: block;
-  color: #0f6674;
-  text-decoration: underline;
-  margin-bottom: 0.5rem;
-}
-
-.learn-link:hover {
-  text-decoration: none;
-  color: #FFCF77;
-}
-
 .list {
   list-style: none;
   padding: 0;
@@ -72,10 +59,10 @@
 }
 
 .list li::before {
-  content: '➜';
+  content: "➜";
   position: absolute;
   left: 0;
-  color: #1E0D31;
+  color: #1e0d31;
 }
 
 /* Contributors Section Styling */
@@ -103,13 +90,13 @@
 
 .contributor-card:hover {
   transform: translateY(-5px);
-  background-color: #FFCF77;
+  background-color: #ffcf77;
 }
 
 .contributor-name {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #1E0D31;
+  color: #1e0d31;
   margin-bottom: 10px;
 }
 
