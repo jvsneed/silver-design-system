@@ -1,11 +1,13 @@
 import React from "react";
+import Do from './Dos.js';
+import Dont from './Donts.js';
 import "./ColorContrastExample.css"; // Import the CSS file
 
 const ColorContrastExample = () => {
   return (
     <div className="color-contrast-example-container">
       <div className="example-item">
-        <div className="do">☑ Do</div>
+        <Do></Do>
         <div className="note">
           <span>
             The color contrast is 21:1 ratio, passing accessibility requirements
@@ -19,7 +21,7 @@ const ColorContrastExample = () => {
         </div>
       </div>
       <div className="example-item">
-        <div className="dont">☒ Don't</div>
+        <Dont></Dont>
         <div className="note">
           <span>
             The grey background and light colored text is difficult to read and

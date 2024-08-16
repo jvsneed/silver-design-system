@@ -1,11 +1,13 @@
 import React from 'react';
+import Do from './Dos.js';
+import Dont from './Donts.js';
 import './MenuExample.css'; 
 
 const MenuExample = () => {
   return (
     <div className="menu-container">
       <div className="menu-example-do">
-        <div className="do">☑ Do</div>
+        <Do></Do>
         <div className="note">
           <span>The color contrast is 21:1 ratio, passing accessibility requirements and is easier to read for all users.</span>
         </div>
@@ -38,7 +40,7 @@ const MenuExample = () => {
       
       </div>
       <div className="menu-example-dont">
-        <div className='dont'>☒ Don't</div>
+        <Dont></Dont>
         <div className="note">
           <span>Many sites collapse the navigation menu by default and use icons to help with navigation. Avoid collapsing the menu initially, and give the user the option to close it if they prefer.</span>
         </div>

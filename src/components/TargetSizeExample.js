@@ -1,11 +1,13 @@
 import React from 'react';
-import './TargetSizeExample.css'; // Import the CSS file
+import Do from './Dos.js';
+import Dont from './Donts.js';
+import './TargetSizeExample.css';
 
 const TargetSizeExample = () => {
   return (
     <div className="target-size-example-container">
       <div className="example-item correct">
-      <div className="do">☑ Do</div>
+      <Do></Do>
       <div className="note">
           <span>The height of this target size is greater than 44px.</span>
         </div>
@@ -18,7 +20,7 @@ const TargetSizeExample = () => {
       </div>
 
       <div className="example-item incorrect">
-      <div className='dont'>☒ Don't</div>
+      <Dont></Dont>
       <div className="note">
           <span>This target size height is less than 44px.</span>
         </div>

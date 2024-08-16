@@ -1,11 +1,13 @@
 import React from 'react';
+import Do from './Dos.js';
+import Dont from './Donts.js';
 import './MinimumSpacingExample.css';
 
 const MinimumSpacingExample = () => {
   return (
     <div className="minimum-spacing-example-container">
       <div className="example-item correct">
-      <div className="do">☑ Do</div>
+      <Do></Do>
       <div className="note">
           <span>The width of this gap is 65px.</span>
         </div>
@@ -29,7 +31,7 @@ const MinimumSpacingExample = () => {
       </div>
 
       <div className="example-item incorrect">
-      <div className='dont'>☒ Don't</div>
+      <Dont></Dont>
       <div className="note">
           <span>Short physical proximity may lead to selection mistakes. This gap width is 4px.</span>
         </div>
