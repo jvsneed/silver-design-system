@@ -5,8 +5,11 @@ const MinimumSpacingExample = () => {
   return (
     <div className="minimum-spacing-example-container">
       <div className="example-item correct">
+      <div className="do">☑ Do</div>
+      <div className="note">
+          <span>The width of this gap is 65px.</span>
+        </div>
         <div className="example-header">
-          <div className="line green"></div>
           <div className="example-box">
             <div className="spacing-box correct">
               <div className="button-spacing">
@@ -23,15 +26,14 @@ const MinimumSpacingExample = () => {
             </div>
           </div>
         </div>
-        <div className="example-description">
-          <img src="https://img.icons8.com/color/48/000000/checkmark.png" alt="Checkmark" className="status-icon" />
-          <p>The width of this gap is 65px.</p>
-        </div>
       </div>
 
       <div className="example-item incorrect">
+      <div className='dont'>☒ Don't</div>
+      <div className="note">
+          <span>Short physical proximity may lead to selection mistakes. This gap width is 4px.</span>
+        </div>
         <div className="example-header">
-          <div className="line red"></div>
           <div className="example-box">
             <div className="spacing-box incorrect">
               <div className="flight-list">
@@ -40,10 +42,6 @@ const MinimumSpacingExample = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="example-description">
-          <img src="https://img.icons8.com/color/48/000000/cancel.png" alt="Error" className="status-icon"/>
-          <p>Short physical proximity may lead to selection mistakes. This gap width is 4px.</p>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Changed from BrowserRouter to HashRouter
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
 import theme from './styles/theme';
@@ -10,6 +10,7 @@ import About from './pages/About';
 import ChecklistPage from './pages/ChecklistPage';
 import CognitiveGuidelines from './pages/CognitiveGuidelines';
 import DesignGuidelines from './pages/DesignGuidelines';
+import './App.css';
 
 const AppContainer = styled.div`
   display: flex;

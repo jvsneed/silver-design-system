@@ -1,72 +1,13 @@
 .target-size-example-container {
     display: flex;
-    max-width: 60%;
-    gap:60px;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-wrap:wrap;
+    max-width: 100%;
+    gap:30px;
+    justify-content: flex-start;
+    align-items: stretch;
     margin: 20px 0;
   }
-  
-  .example-item {
-    flex: 1;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .example-item.correct {
-    margin-right: 40px; /* Space between correct and incorrect sections */
-  }
-  
-  .example-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .line {
-    height: 5px;
-    width: 100%;
-  }
-  
-  .green {
-    background-color: #4caf50;
-  }
-  
-  .red {
-    background-color: #ff3e3e;
-  }
-  
-  .example-box {
-    border-radius: 8px;
-    padding: 20px; /* Adjust padding as necessary */
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .example-image {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .example-description {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 10px;
-  }
-  
-  .status-icon {
-    margin-right: 10px;
-  }
-  
-  .example-description p {
-    margin: 0;
-    font-size: 1rem;
-    color: #343a40;
-  }
-  
+
   /* Toggle Switch Styling */
   .toggle-switch {
     width: 60px;
@@ -117,4 +58,3 @@
   .small-checkbox.checked::before {
     display: block;
   }
-  

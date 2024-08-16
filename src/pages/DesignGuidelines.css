@@ -1,40 +1,6 @@
-.page-container {
-    padding: 20px;
-    width: 90%;
-  }
-  
-  .page-title {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-  }
-  
-  .section {
-    margin-bottom: 40px;
-  }
-  
-  .section-title {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .section-content {
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-  
-  .horizontal-rule {
-    border: 0;
-    border-top: .5px solid #948B89;
-    margin: 60px 0 10px 0;
-  }
-  .guidelines-list{
-    margin-left: 15px;
-  }
-  .guidelines-list li{
-    padding-bottom: 5px;
-  }
-  
-  
+.guidelines-list {
+  margin-left: 15px;
+}
+.guidelines-list li {
+  padding-bottom: 5px;
+}

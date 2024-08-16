@@ -1,79 +1,32 @@
-.page-container {
-    padding: 20px;
-    width: 90%;
-  }
-  
-  .page-title {
-    font-size: 2rem;
-    color: #1E0D31; /* Replace with your theme's primary color */
-    margin-bottom: 20px;
-  }
-  
-  .section {
-    margin-bottom: 40px;
-  }
-  
-  .section-title {
-    font-size: 1.5rem;
-    color: #1E0D31; /* Replace with your theme's primary color */
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .section-content {
-    font-size: 1rem;
-    color: #343a40; /* Replace with your theme's dark color */
-    margin: 0 10px 0 0;
-  }
-  
-  .horizontal-rule {
-    border: 0;
-    border-top: .5px solid #1E0D31; /* Replace with your theme's primary color */
-    margin: 20px 0;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 20px;
-  }
-  .menu-icon {
-    width: 25px;
-    height: 3px;
-    background-color: #000;
-    margin-bottom: 5px;
-  }
+.menu-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 5px;
+}
+.understand-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 40px;
+}
+.understand-heading {
+  font-size: 16pt;
+}
+.bad-section,
+.good-section {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+.good-section {
+  color: green;
+}
 
-  .note {
-    display: flex;
-    align-items: flex-start;
-    padding: 10px 0px;
-  }
-
-  .understand-section{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    padding:40px;
-  }
-  .understand-heading{
-    font-size: 16pt;
-  }
-  .bad-section,
-  .good-section{
-    display: flex;
-    flex-direction: column;
-    color: red;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px 30px;
-    border-radius: 8px;
-    border: 1px solid #e0e0e0;
-  }
-  .good-section{
-    color:green;
-  }
-  
-  .bad-section{
-    color: red;
-  }
+.bad-section {
+  color: red;
+}
