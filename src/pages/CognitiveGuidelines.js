@@ -99,6 +99,7 @@ const CognitiveGuidelines = () => {
         </p>
         <div className="understand-section">
           <div className="good-section">
+          <div className="do">☑ Do</div>
             <h1 className="understand-heading">instead of...</h1>
             <span>click</span>
             <span>submit</span>
@@ -108,6 +109,8 @@ const CognitiveGuidelines = () => {
           </div>
 
           <div className="bad-section">
+          <div className='dont'>☒ Don't</div>
+
             <h1 className="understand-heading">try</h1>
             <span>select</span>
             <span>finish or send</span>

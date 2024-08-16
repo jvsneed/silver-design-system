@@ -4,7 +4,11 @@ import './MenuExample.css'; // Import the CSS file
 const MenuExample = () => {
   return (
     <div className="menu-container">
-      <div className="menu-section">
+      <div className="menu-example-do">
+        <div className="do">☑ Do</div>
+        <div className="note">
+          <span>The color contrast is 21:1 ratio, passing accessibility requirements and is easier to read for all users.</span>
+        </div>
         <div className="menu">
           <div className="menu-item">
             <div className="icon">
@@ -31,14 +35,13 @@ const MenuExample = () => {
             <span>Explore</span>
           </div>
         </div>
-        <div className="note">
-          <div className="note-icon">
-            <img src="https://img.icons8.com/ios/50/4caf50/ok.png" alt="Check mark" />
-          </div>
-          <span>The color contrast is 21:1 ratio, passing accessibility requirements and is easier to read for all users.</span>
-        </div>
+      
       </div>
-      <div className="comparison-section">
+      <div className="menu-example-dont">
+        <div className='dont'>☒ Don't</div>
+        <div className="note">
+          <span>Many sites collapse the navigation menu by default and use icons to help with navigation. Avoid collapsing the menu initially, and give the user the option to close it if they prefer.</span>
+        </div>
         <div className="comparison-menu">
           <div className="menu-item">
             <div className="icon">
@@ -60,12 +63,6 @@ const MenuExample = () => {
               <img src="https://img.icons8.com/ios/50/000000/globe--v2.png" alt="Explore" />
             </div>
           </div>
-        </div>
-        <div className="note">
-          <div className="note-icon">
-            <img src="https://img.icons8.com/color/48/000000/cancel.png" alt="X icon" />
-          </div>
-          <span>Many sites collapse the navigation menu by default and use icons to help with navigation. Avoid collapsing the menu initially, and give the user the option to close it if they prefer.</span>
         </div>
       </div>
     </div>

@@ -38,97 +38,42 @@
     align-items: flex-start;
     margin: 20px;
   }
-  
-  .menu-section {
-    width: 250px;
-    margin-right: 20px;
-    border-top: 5px solid #4caf50;
-  }
-  
-  .menu {
-    padding: 20px;
-    border: 1px solid #ddd;
-  }
-  
-  .menu-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  
-  .icon {
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-  }
-  
   .menu-icon {
     width: 25px;
     height: 3px;
     background-color: #000;
     margin-bottom: 5px;
   }
-  
-  .menu-icon::after,
-  .menu-icon::before {
-    content: '';
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #000;
-    margin-top: 5px;
-  }
-  
+
   .note {
     display: flex;
     align-items: flex-start;
-    padding: 20px;
-    width: 250px;
+    padding: 10px 0px;
   }
-  
-  .note-icon {
-    height: 34px;
-    margin-right: 10px;
-    display: flex;
-    flex-shrink: 0;
-  }
-  
-  .comparison-section {
-    width: 100px;
-    padding-top: 10px;
-    margin-left: 100px;
-    border-top: 5px solid #ff3e3e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .comparison-menu {
-    border: 1px solid #ddd;
-    padding: 30px 0 0 20px;
-  }
-  
+
   .understand-section{
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     padding:40px;
   }
-  
   .understand-heading{
     font-size: 16pt;
   }
+  .bad-section,
   .good-section{
     display: flex;
     flex-direction: column;
+    color: red;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+  .good-section{
     color:green;
-    border-top: 4px solid green;
   }
   
   .bad-section{
-    display: flex;
-    flex-direction: column;
     color: red;
-    border-top: 4px solid red;
   }
