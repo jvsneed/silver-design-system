@@ -2,6 +2,7 @@ import React from "react";
 import GuidelinesKey from "../components/GuidelinesKey";
 import CognitiveIcon from "../components/CognitiveIcon";
 import SensoryIcon from "../components/SensoryIcon";
+import OrientUserExample from "../components/OrientUserExample";
 
 const NavigationGuidelines = () => {
   return (
@@ -50,6 +51,7 @@ const NavigationGuidelines = () => {
             </li>
           </ul>
         </p>
+        <OrientUserExample />
       </div>
       <hr className="horizontal-rule" />
 

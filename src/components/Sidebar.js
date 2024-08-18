@@ -63,24 +63,6 @@ const Sidebar = () => {
             <ul className="sidebar-sublist">
               <li>
                 <Link 
-                  to="/guidelines/cognitive" 
-                  className={`sidebar-link ${location.pathname === '/guidelines/cognitive' ? 'active' : ''}`}
-                  aria-current={location.pathname === '/guidelines/cognitive' ? 'page' : undefined}
-                >
-                  Cognitive
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/guidelines/design" 
-                  className={`sidebar-link ${location.pathname === '/guidelines/design' ? 'active' : ''}`}
-                  aria-current={location.pathname === '/guidelines/design' ? 'page' : undefined}
-                >
-                  Design
-                </Link>
-              </li>
-              <li>
-                <Link 
                   to="/guidelines/text" 
                   className={`sidebar-link ${location.pathname === '/guidelines/text' ? 'active' : ''}`}
                   aria-current={location.pathname === '/guidelines/text' ? 'page' : undefined}
@@ -115,6 +97,33 @@ const Sidebar = () => {
                   Layout and Spacing
                 </Link>
               </li>
+              <li>
+                <Link 
+                  to="/guidelines/interaction" 
+                  className={`sidebar-link ${location.pathname === '/guidelines/interaction' ? 'active' : ''}`}
+                  aria-current={location.pathname === '/guidelines/interaction' ? 'page' : undefined}
+                >
+                  Interactive Elements
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/guidelines/content" 
+                  className={`sidebar-link ${location.pathname === '/guidelines/content' ? 'active' : ''}`}
+                  aria-current={location.pathname === '/guidelines/content' ? 'page' : undefined}
+                >
+                  Content
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/guidelines/guidance" 
+                  className={`sidebar-link ${location.pathname === '/guidelines/guidance' ? 'active' : ''}`}
+                  aria-current={location.pathname === '/guidelines/guidance' ? 'page' : undefined}
+                >
+                  User Guidance
+                </Link>
+              </li>
               {/* Add more pages here if needed */}
             </ul>
           </CSSTransition>
@@ -136,7 +145,7 @@ const Sidebar = () => {
           <FaFigma />
           Open Figma Design
         </a>
-        <div className="version">v1.14</div>
+        <div className="version">v1.15</div>
       </div>
         </div>
 

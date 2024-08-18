@@ -2,6 +2,7 @@ import React from "react";
 import GuidelinesKey from "../components/GuidelinesKey";
 import CognitiveIcon from "../components/CognitiveIcon";
 import SensoryIcon from "../components/SensoryIcon";
+import ColorContrastExample from "../components/ColorContrastExample";
 
 const ColorGuidelines = () => {
   return (
@@ -27,6 +28,8 @@ const ColorGuidelines = () => {
             </li>
           </ul>
         </p>
+        <ColorContrastExample />
+
       </div>
 
       <hr className="horizontal-rule" />

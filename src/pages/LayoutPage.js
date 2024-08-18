@@ -3,6 +3,7 @@ import GuidelinesKey from "../components/GuidelinesKey";
 import CognitiveIcon from "../components/CognitiveIcon";
 import SensoryIcon from "../components/SensoryIcon";
 import PhysicalIcon from "../components/PhysicalIcon";
+import MinimumSpacingExample from "../components/MinimumSpacingExample";
 
 const LayoutGuidelines = () => {
   return (
@@ -42,6 +43,8 @@ const LayoutGuidelines = () => {
             </li>
           </ul>
         </p>
+        <MinimumSpacingExample />
+
       </div>
     </div>
   );

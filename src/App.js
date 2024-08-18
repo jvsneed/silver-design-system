@@ -8,13 +8,15 @@ import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
 import About from './pages/About';
 import ChecklistPage from './pages/ChecklistPage';
-import CognitiveGuidelines from './pages/CognitiveGuidelines';
-import DesignGuidelines from './pages/DesignGuidelines';
 import TextGuidelines from './pages/TextPage';
 import ColorGuidelines from './pages/ColorPage';
 import NavigationGuidelines from './pages/NavigationPage';
 import LayoutGuidelines from './pages/LayoutPage';
+import InteractiveElementsGuidelines from './pages/InteractiveElementsPage';
+import ContentGuidelines from './pages/ContentGuidelines';
+import GuidelinesKey from './components/GuidelinesKey';
 import './App.css';
+import GuidanceGuidelines from './pages/GuidanceGuidelines';
 
 const AppContainer = styled.div`
   display: flex;
@@ -45,13 +47,14 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/checklist" element={<ChecklistPage />} />
-              <Route path="/guidelines/cognitive" element={<CognitiveGuidelines />} />
-              <Route path="/guidelines/design" element={<DesignGuidelines />} />
               <Route path="/guidelines/checklist" element={<ChecklistPage />} />
               <Route path="/guidelines/text" element={<TextGuidelines />} />
               <Route path="/guidelines/color" element={<ColorGuidelines />} />
               <Route path="/guidelines/navigation" element={<NavigationGuidelines />} />
               <Route path="/guidelines/layout" element={<LayoutGuidelines />} />
+              <Route path="/guidelines/interaction" element={<InteractiveElementsGuidelines />} />
+              <Route path="/guidelines/content" element={<ContentGuidelines />} />
+              <Route path="/guidelines/guidance" element={<GuidanceGuidelines />} />
             </Routes>
           </ContentContainer>
         </AppContainer>
