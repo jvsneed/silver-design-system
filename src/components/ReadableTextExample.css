@@ -1,0 +1,63 @@
+.readable-text-example-container {
+    display: flex;
+    max-width: 100%;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  .readable-text-example{
+    min-width: 40%!important;
+  }
+  .example-blurb-correct{
+    display:flex;
+    max-width:90%;
+    flex-direction: column;
+    /* background-color: rgba(234, 234, 234, 0.308); */
+    border-radius: 10px;
+    padding: 0px 0px 30px 0px;
+    margin-top: 20px;
+
+  }
+  .example-blurb-incorrect{
+    display:flex;
+    max-width:90%;
+    flex-direction: column;
+    /* background-color: rgba(234, 234, 234, 0.308); */
+    border-radius: 10px;
+    padding: 0px 0px 30px 0px;
+    margin-top: 20px;
+
+  }
+  .example-blurb-image{
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  #example-blurb-heading-correct{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 2px 10px;
+  }
+
+  #example-blurb-heading-incorrect{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 2px 10px;
+  }
+  #example-blurb-text-correct{
+    font-size: 14pt;
+    padding: 2px 10px;
+  }
+  #example-blurb-text-incorrect{
+    font-size: 10pt;
+    padding: 2px 10px;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+   
+  }

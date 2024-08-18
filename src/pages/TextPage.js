@@ -2,6 +2,7 @@ import React from "react";
 import GuidelinesKey from "../components/GuidelinesKey";
 import CognitiveIcon from "../components/CognitiveIcon";
 import SensoryIcon from "../components/SensoryIcon";
+import ReadableTextExample from "../components/ReadableTextExample";
 
 const TextGuidelines = () => {
   return (
@@ -30,6 +31,7 @@ const TextGuidelines = () => {
             </li>
           </ul>
         </p>
+        <ReadableTextExample />
       </div>
 
       <hr className="horizontal-rule" />
