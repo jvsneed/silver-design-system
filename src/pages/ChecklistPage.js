@@ -75,14 +75,17 @@ function ChecklistPage() {
       title: "5. Error prevention",
       description: "Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform and industry conventions.",
       items: [
-        "Are the same terms and labels used consistently throughout the interface? Example: \"Submit\" always used instead of sometimes \"Submit\" and sometimes \"Send\"",
-        "Are fonts, colors, and styles used consistently across the entire interface?",
-        "Are icons and symbols used consistently, with each icon representing the same function or concept in every context?",
-        "Are page layouts consistent across different sections of the interface? Example: navigation menus in the same place on every page",
-        "Do interactive elements (e.g., buttons, links) behave consistently? Example: all clickable items change color on hover",
-        "Are error messages and feedback provided in a consistent manner?",
-        "Does the interface adhere to accessibility standards (e.g., WCAG) to ensure it is usable by seniors with varying abilities?",
-        "Are text and background colors chosen to meet contrast standards, making content readable?"
+        "Are instructions clear and concise, guiding users on how to complete tasks correctly?",
+        "Are complex tasks broken down into simple, step-by-step instructions?",
+        "Are input fields validated in real-time to prevent errors (e.g., checking email format as it's entered)?",
+        "Are clear and specific error messages provided if input is incorrect? Example: Please enter a valid email address",
+        "Are dropdowns, radio buttons, or checkboxes used instead of open text fields where possible to limit incorrect entries?",
+        "Are input fields clearly labeled with examples to show the correct format? Example:\"MM/DD/YYYY\" for dates",
+        "Are buttons and options that are not available or applicable grayed out or hidden to prevent incorrect actions?",
+        "Is contextual help provided near input fields and complex tasks to guide users? Examples: tooltips, help icons",
+        "Are auditory cues provided for errors to assist users with visual impairments?",
+        "Are tutorials, guides, or onboarding available to help users learn how to perform tasks correctly?"
+        
       ]
     },
     {
