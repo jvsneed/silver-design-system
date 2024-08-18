@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FaFigma, FaBars } from 'react-icons/fa';
+import { FaFigma, FaBars, FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { CSSTransition } from 'react-transition-group';
 import './Sidebar.css';
 
 const Sidebar = () => {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
+  };
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
   };
 
   return (
@@ -41,23 +47,77 @@ const Sidebar = () => {
             About
           </Link>
         </div>
-        <div className="sidebar-item">
-          <Link 
-            to="/guidelines/cognitive" 
-            className={`sidebar-link ${location.pathname === '/guidelines/cognitive' ? 'active' : ''}`}
-            aria-current={location.pathname === '/guidelines/cognitive' ? 'page' : undefined}
-          >
-            Cognitive Guidelines
-          </Link>
-        </div>
-        <div className="sidebar-item">
-          <Link 
-            to="/guidelines/design" 
-            className={`sidebar-link ${location.pathname === '/guidelines/design' ? 'active' : ''}`}
-            aria-current={location.pathname === '/guidelines/design' ? 'page' : undefined}
-          >
+
+        {/* Design Guidelines Group */}
+        <div className="sidebar-item sidebar-group">
+          <div className="sidebar-group-header" onClick={toggleExpand}>
             Design Guidelines
-          </Link>
+            {isExpanded ? <FaChevronUp className="chevron-icon" /> : <FaChevronDown className="chevron-icon" />}
+          </div>
+          <CSSTransition
+            in={isExpanded}
+            timeout={300}
+            classNames="expand"
+            unmountOnExit
+          >
+            <ul className="sidebar-sublist">
+              <li>
+                <Link 
+                  to="/guidelines/cognitive" 
+                  className={`sidebar-link ${location.pathname === '/guidelines/cognitive' ? 'active' : ''}`}
+                  aria-current={location.pathname === '/guidelines/cognitive' ? 'page' : undefined}
+                >
+                  Cognitive
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/guidelines/design" 
+                  className={`sidebar-link ${location.pathname === '/guidelines/design' ? 'active' : ''}`}
+                  aria-current={location.pathname === '/guidelines/design' ? 'page' : undefined}
+                >
+                  Design
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/guidelines/text" 
+                  className={`sidebar-link ${location.pathname === '/guidelines/text' ? 'active' : ''}`}
+                  aria-current={location.pathname === '/guidelines/text' ? 'page' : undefined}
+                >
+                  Text and Type
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/guidelines/color" 
+                  className={`sidebar-link ${location.pathname === '/guidelines/color' ? 'active' : ''}`}
+                  aria-current={location.pathname === '/guidelines/color' ? 'page' : undefined}
+                >
+                  Color and Contrast
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/guidelines/navigation" 
+                  className={`sidebar-link ${location.pathname === '/guidelines/navigation' ? 'active' : ''}`}
+                  aria-current={location.pathname === '/guidelines/navigation' ? 'page' : undefined}
+                >
+                  Navigation
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/guidelines/layout" 
+                  className={`sidebar-link ${location.pathname === '/guidelines/layout' ? 'active' : ''}`}
+                  aria-current={location.pathname === '/guidelines/layout' ? 'page' : undefined}
+                >
+                  Layout and Spacing
+                </Link>
+              </li>
+              {/* Add more pages here if needed */}
+            </ul>
+          </CSSTransition>
         </div>
         <div className="sidebar-item">
           <Link 
@@ -67,8 +127,7 @@ const Sidebar = () => {
           >
             Design Checklist
           </Link>
-        </div>
-        <a 
+          <a 
           href="https://www.figma.com" 
           target="_blank" 
           rel="noopener noreferrer" 
@@ -79,6 +138,8 @@ const Sidebar = () => {
         </a>
         <div className="version">v1.14</div>
       </div>
+        </div>
+
     </>
   );
 };

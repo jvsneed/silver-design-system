@@ -1,6 +1,6 @@
 .hero-container {
   width: 100%;
-  height: 99vh; /* Full viewport height */
+  height: 99vh; 
   background: url('../images/silverdesignheader.png') no-repeat center center/cover;
   color: #1E0D31; /* Dark text color */
   display: flex;

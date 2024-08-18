@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease;
+  overflow-y: scroll;
 }
 
 .sidebar-container.open {
@@ -73,7 +74,7 @@
   background-origin: border-box;
   background-clip: padding-box, border-box;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: auto; /* Push the button to the bottom */
+  margin-top: 50px; /* Push the button to the bottom */
   overflow: hidden;
   position: relative;
   transition: border 0.4s ease, box-shadow 0.4s ease;
@@ -117,6 +118,63 @@
 .version{
   font-size:9pt;
 }
+.sidebar-group-header {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #343a40;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-group-header:hover {
+  background-color: #FFCF77;
+  color: #1E0D31;
+}
+
+.chevron-icon {
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.expand-enter {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.expand-enter-active {
+  max-height: 200px; /* Adjust this value as needed */
+  opacity: 1;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.expand-exit {
+  max-height: 200px; /* Adjust this value as needed */
+  opacity: 1;
+  overflow: hidden;
+}
+
+.expand-exit-active {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.sidebar-sublist {
+  list-style-type: none;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.sidebar-sublist li {
+  margin-bottom: 10px;
+}
+
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {

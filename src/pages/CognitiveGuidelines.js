@@ -4,11 +4,13 @@ import Do from "../components/Dos.js";
 import Dont from "../components/Donts.js";
 import MenuExample from "../components/MenuExample";
 import OrientUserExample from "../components/OrientUserExample";
+import GuidelinesKey from "../components/GuidelinesKey.js";
 
 const CognitiveGuidelines = () => {
   return (
     <div className="page-container">
       <h1 className="page-title">Cognitive Guidelines</h1>
+      <GuidelinesKey />
       <div className="section">
         <h2 className="section-title">Understandable Language</h2>
         <p className="section-content">

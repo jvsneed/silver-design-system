@@ -14,11 +14,13 @@
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 400;
   color: #1e0d31;
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
 
 .section-content {
   font-size: 1rem;
@@ -69,6 +71,34 @@ a:hover {
   background-color: red;
 }
 
+.cognitive-icon,
+.physical-icon,
+.sensory-icon {
+  color: white;
+  font-size: 9pt;
+  font-weight:bold;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0px 5px 1px 5px;
+  border-radius: 50%;
+  align-items: center;
+  border:white 2px solid
+}
+.cognitive-icon {
+  background-color: rgb(7, 107, 173);
+}
+.physical-icon {
+  background-color: rgb(135, 12, 176);
+}
+.sensory-icon {
+  background-color: rgb(221, 158, 0);
+}
+.guidelines-key{
+  margin-bottom: 50px;
+  padding:20px;
+  background-color: rgba(234, 234, 235, 0.548);
+  border-radius: 10px;
+}
 @media screen and (max-width: 768px) {
   .page-container {
     margin-top: 20px;

@@ -10,6 +10,10 @@ import About from './pages/About';
 import ChecklistPage from './pages/ChecklistPage';
 import CognitiveGuidelines from './pages/CognitiveGuidelines';
 import DesignGuidelines from './pages/DesignGuidelines';
+import TextGuidelines from './pages/TextPage';
+import ColorGuidelines from './pages/ColorPage';
+import NavigationGuidelines from './pages/NavigationPage';
+import LayoutGuidelines from './pages/LayoutPage';
 import './App.css';
 
 const AppContainer = styled.div`
@@ -44,6 +48,10 @@ function App() {
               <Route path="/guidelines/cognitive" element={<CognitiveGuidelines />} />
               <Route path="/guidelines/design" element={<DesignGuidelines />} />
               <Route path="/guidelines/checklist" element={<ChecklistPage />} />
+              <Route path="/guidelines/text" element={<TextGuidelines />} />
+              <Route path="/guidelines/color" element={<ColorGuidelines />} />
+              <Route path="/guidelines/navigation" element={<NavigationGuidelines />} />
+              <Route path="/guidelines/layout" element={<LayoutGuidelines />} />
             </Routes>
           </ContentContainer>
         </AppContainer>
