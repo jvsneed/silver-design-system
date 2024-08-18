@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/silver-design-system/static/css/main.faeb15b4.css",
-    "main.js": "/silver-design-system/static/js/main.6c89a9f0.js",
+    "main.css": "/silver-design-system/static/css/main.c6e07e6c.css",
+    "main.js": "/silver-design-system/static/js/main.6db7bff8.js",
     "static/js/453.ce30075c.chunk.js": "/silver-design-system/static/js/453.ce30075c.chunk.js",
-    "static/media/orientuser.png": "/silver-design-system/static/media/orientuser.40bf3543241ba665b55b.png",
+    "static/media/orientuser.png": "/silver-design-system/static/media/orientuser.85b8dcdb16b5e6d6172c.png",
     "static/media/silverdesignheader.png": "/silver-design-system/static/media/silverdesignheader.2d75fb4915df50ace50e.png",
     "static/media/open-peeps-3.png": "/silver-design-system/static/media/open-peeps-3.9c8529a2c78f827ee981.png",
     "index.html": "/silver-design-system/index.html",
-    "main.faeb15b4.css.map": "/silver-design-system/static/css/main.faeb15b4.css.map",
-    "main.6c89a9f0.js.map": "/silver-design-system/static/js/main.6c89a9f0.js.map",
+    "main.c6e07e6c.css.map": "/silver-design-system/static/css/main.c6e07e6c.css.map",
+    "main.6db7bff8.js.map": "/silver-design-system/static/js/main.6db7bff8.js.map",
     "453.ce30075c.chunk.js.map": "/silver-design-system/static/js/453.ce30075c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faeb15b4.css",
-    "static/js/main.6c89a9f0.js"
+    "static/css/main.c6e07e6c.css",
+    "static/js/main.6db7bff8.js"
   ]
 }
