@@ -62,5 +62,16 @@
 
   
   @media screen and (max-width: 768px) {
-   
+    .readable-text-example-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: flex-start;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+    .readable-text-example{
+      min-width: 99%!important;
+      max-width: 100%!important;
+    }
   }

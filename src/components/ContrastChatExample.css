@@ -98,3 +98,18 @@
     cursor: pointer;
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+    .chat-text-example-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: flex-start;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+    .chat-text-example{
+      min-width: 99%;
+      max-width: 100%!important;
+    }
+  }

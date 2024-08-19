@@ -4,7 +4,7 @@ import CognitiveIcon from "../components/CognitiveIcon";
 import SensoryIcon from "../components/SensoryIcon";
 import ReadableTextExample from "../components/ReadableTextExample";
 import ChatExample from "../components/ContrastChatExample";
-
+import TextDecorExample from "../components/TextDecorExample";
 
 const TextGuidelines = () => {
   return (
@@ -79,6 +79,7 @@ const TextGuidelines = () => {
             </li>
           </ul>
         </p>
+        <TextDecorExample />
       </div>      
     </div>
   );
