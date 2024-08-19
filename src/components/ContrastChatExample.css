@@ -99,7 +99,7 @@
     font-size: 14px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .chat-text-example-container {
       display: flex;
       flex-direction: column;
@@ -111,5 +111,13 @@
     .chat-text-example{
       min-width: 99%;
       max-width: 100%!important;
+    }
+    .chat-container {
+        max-width: 95%;
+        height: 350px;
+    }
+    .chat-footer {
+        flex-direction: column;
+        gap: 15px;
     }
   }

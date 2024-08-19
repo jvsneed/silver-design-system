@@ -46,7 +46,7 @@
 .nav-links a:hover {
   text-decoration: underline;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .text-decor-example-container {
     display: flex;
     flex-direction: column;

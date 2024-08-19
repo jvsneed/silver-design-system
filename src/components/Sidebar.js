@@ -145,7 +145,7 @@ const Sidebar = () => {
           <FaFigma />
           Open Figma Design
         </a>
-        <div className="version">v1.16</div>
+        <div className="version">v1.17</div>
       </div>
         </div>
 
