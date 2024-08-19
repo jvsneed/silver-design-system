@@ -1,7 +1,7 @@
 {
   "name": "silver-design-system",
   "version": "0.1.0",
-  "homepage": "https://www.silverux.design",
+  "homepage": "https://silverux.design",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
