@@ -3,6 +3,8 @@ import GuidelinesKey from "../components/GuidelinesKey";
 import CognitiveIcon from "../components/CognitiveIcon";
 import SensoryIcon from "../components/SensoryIcon";
 import ReadableTextExample from "../components/ReadableTextExample";
+import ChatExample from "../components/ContrastChatExample";
+
 
 const TextGuidelines = () => {
   return (
@@ -55,6 +57,7 @@ const TextGuidelines = () => {
             <li>This includes buttons and inline links.</li>
           </ul>
         </p>
+        <ChatExample />
       </div>
 
       <hr className="horizontal-rule" />
