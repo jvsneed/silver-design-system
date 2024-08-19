@@ -26,7 +26,7 @@ const TextDecorExample = () => {
           </div>
         </div>
       </div>
-      <div className="example-item chat-text-example">
+      <div className="example-item text-decor-example">
         <Dont></Dont>
         <div className="note">
         The navigation links are all in capitalized letters. While it may seem this would be easier to read for someone with low vision, it is better to increase the font size instead.
