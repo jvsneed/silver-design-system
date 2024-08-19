@@ -11,9 +11,6 @@ const contributors = [
 const About = () => {
   return (
     <main className="about-container">
-      {/* Skip to Content Link */}
-      <a href="#main-content" className="skip-to-content">Skip to content</a>
-
       <section>
         <h1 className="page-title">About Silver Design</h1>
         <p>
