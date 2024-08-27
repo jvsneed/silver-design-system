@@ -14,7 +14,7 @@ const About = () => {
       <section>
         <h1 className="page-title">About Silver Design</h1>
         <p>
-          SilverDesign is a tool aimed to help designers improve inclusivity of web experiences for seniors. By using a tablet-first approach to UI, you may be improving accessibility for a previously isolated digital user. This kit is made specifically for web experiences and other considerations for native mobile applications components may need to be made.
+          SilverDesign is a tool aimed to help designers improve inclusivity of web experiences for seniors. By using a tablet-first approach to UI, you may be improving accessibility for a previously isolated digital user. This kit is made specifically for web experiences and other considerations for native mobile applications components that may need to be made.
         </p>
       </section>
 
@@ -53,6 +53,7 @@ const About = () => {
           ))}
         </div>
       </section>
+      <div className="version">v1.18</div>
     </main>
   );
 };

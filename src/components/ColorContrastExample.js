@@ -24,7 +24,7 @@ const ColorContrastExample = () => {
         <Dont></Dont>
         <div className="note">
           <span>
-            The grey background and light colored text is difficult to read and
+            The blue background and light colored text is difficult to read and
             does not meet web accessibility standards.
           </span>
         </div>

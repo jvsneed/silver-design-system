@@ -137,7 +137,7 @@ const Sidebar = () => {
             Design Checklist
           </Link>
           <a 
-          href="https://www.figma.com" 
+          href="https://www.figma.com/community/file/1410100833962633001/silver-design-components" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="figma-button"
@@ -145,7 +145,6 @@ const Sidebar = () => {
           <FaFigma />
           Open Figma Design
         </a>
-        <div className="version">v1.17</div>
       </div>
         </div>
 
