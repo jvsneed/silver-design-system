@@ -1,0 +1,60 @@
+.target-size-example-container {
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 100%;
+    gap:30px;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 20px 0;
+  }
+
+  /* Toggle Switch Styling */
+  .toggle-switch {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .toggle-switch::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: left 0.3s;
+  }
+  
+  .toggle-switch.active::before {
+    left: 31px;
+    background-color: #1E0D31;
+  }
+  
+  /* Small Checkbox Styling */
+  .small-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .small-checkbox::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: #ff3e3e;
+    display: none;
+  }
+  
+  .small-checkbox.checked::before {
+    display: block;
+  }

@@ -1,0 +1,123 @@
+.chat-text-example-container {
+    display: flex;
+    max-width: 100%;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  .chat-text-example{
+    min-width: 45%!important;
+  }
+  .chat-container {
+    width: 330px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #5B0EAA;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px
+}
+
+.chat-header {
+    background-color: #5B0EAA;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+}
+
+.chat-body {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+}
+
+.chat-message {
+    display: flex;
+    align-items: center;
+}
+
+.chat-icon {
+    width: 40px!important;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.chat-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.chat-bubble {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #5B0EAA;
+}
+.chat-bubble-dark {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #5B0EAA;
+}
+
+.chat-footer {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+}
+
+.chat-footer input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.chat-footer button {
+    background-color: #5B0EAA;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+    .chat-text-example-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: flex-start;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+    .chat-text-example{
+      min-width: 99%;
+      max-width: 100%!important;
+    }
+    .chat-container {
+        max-width: 95%;
+        height: 350px;
+    }
+    .chat-footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+  }

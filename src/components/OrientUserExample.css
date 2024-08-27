@@ -1,0 +1,20 @@
+.guideline-example-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.guideline-example-right {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.guideline-example-right img {
+  width: 100%;
+  height: auto;
+}
